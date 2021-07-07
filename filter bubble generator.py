@@ -27,6 +27,6 @@ def bubble_list(user):
             print(add)
         except Exception as e: print(e)
 
-print("Enter a username to generate a duplicate of his timeline")
+print("Enter a username to generate a duplicate of her timeline")
 user = input()
 bubble_list(user)
